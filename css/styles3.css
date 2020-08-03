@@ -34,9 +34,9 @@ body{
 #nav-list a:hover{
     background-color: #222;
     color: #fff;
-    opacity: 0.8;
+    opacity: 0.5;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 #nav-list hr{
@@ -50,7 +50,7 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
-    padding-bottom: 15px    ;
+    padding-bottom: 15px;
 }
 
 
@@ -61,7 +61,19 @@ body{
 }
 
 @media (max-width: 479px) {
-    #main-content .content{
-        width : 80%;
+    #main-content .row{
+        width : 83.33%;
+        display: block;
+        margin: 15px auto 15px;
     }
 }
+
+@media (max-width: 767px) {
+    #main-content .row{
+        width : 83.33%;
+        display: block;
+        margin: 0 auto 15px;
+    }
+}
+
+
