@@ -7,11 +7,11 @@ body{
 .navbar-brand{
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #222;
 }
 
-#header-navbar .navbar-brand{
-    border-radius: 0px;
-    color: #222;
+.navbar ,.navbar-default{
+    border-radius: 0;
 }
 
 #heading h2{
